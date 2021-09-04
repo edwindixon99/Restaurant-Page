@@ -1,0 +1,32 @@
+.headerImg > img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+
+  }
+
+.headerCon {
+    background-color: azure;
+}
+/* 
+body {
+background-image: url("./3014601.jpg");
+/* background-color: rgba(0, 0, 0, 0.8); 
+} */
+
+/* .item > img {
+    object-fit:contain;
+    width: 50%;
+    max-height: 50%;
+
+  } */
+
+.item {
+    border-radius: 25px;
+    background: #73AD21;
+    /* padding: 20px; */
+    /* width: 400px;
+    height: 350px; */
+    background-color: rgba(255, 0, 0, 0.8);
+
+}
