@@ -9,19 +9,13 @@ function mainPage() {
     const row1 = document.createElement('div');
     const row2 = document.createElement('div');
     const row3 = document.createElement('div');
-    container.classList.add("container");
-    row1.classList.add("row");
+    container.classList.add("container-fluid", "h-100");
+    row1.classList.add("row", "center");
     row2.classList.add("row");
     row3.classList.add("row");
     
     
-    const heading = document.createElement('h1');
-    heading.textContent = "The Aruna Resturant";
-    
 
-    container.classList.add("headerCon")
-    row1.appendChild(heading);
-    container.appendChild(row1);
  
    // Add the image to our existing div.
    const myIcon = new Image();
