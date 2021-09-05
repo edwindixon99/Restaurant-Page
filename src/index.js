@@ -44,8 +44,8 @@ nav1.appendChild(navcon());
 
 
 
-// displayHome()
-displayMenu();
+displayHome();
+// displayMenu();
 // displayInfo();
 
 const homediv = document.getElementById("Home")
