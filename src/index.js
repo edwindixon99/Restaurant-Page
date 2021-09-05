@@ -4,15 +4,15 @@ import mainPage from './home';
 import layout from './menu';
 import info from './contact';
 import navcon from './navigate';
+import Pizza from './slice-of-pizza_1f355.png'
 
 
 console.log("hello")
 
-
-
-// document.body.appendChild(mainPage());
-// document.body.appendChild(layout());
-// document.body.appendChild(info());
+const link = document.createElement("link");
+link.rel = "icon";
+link.href = Pizza;
+document.head.appendChild(link);
 
 function displayHome() {
     const content = document.getElementById("content");
