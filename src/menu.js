@@ -66,15 +66,22 @@ function item(name, icon, cost) {
 
 function layout() {
   const container = document.createElement('div');
+  const row0 = document.createElement('div');
   const row1 = document.createElement('div');
   container.classList.add("container");
+  row0.classList.add("row");
   row1.classList.add("row");
   row1.id = "list";
+
+  const title = document.createElement('h2');
+  title.textContent = 'Menu';
+  row0.appendChild(title);
 
   row1.appendChild(item('hi', Icon, 16));
   row1.appendChild(item('hi', Icon2, 0.50));
   row1.appendChild(item('hi', Icon3, 1));
   row1.appendChild(item('hi', Icon3, 1));
+  container.appendChild(row0);
   container.appendChild(row1);
   return container;
 } 
